@@ -1,8 +1,13 @@
+#ifndef __exceptions__
+#define __exceptions__
+
 #include <exception>
 #include <string>
 #include <cstdio>
 #include <sstream>
 #include <iostream>
+
+class Matrix;
 
 class NotImplementedException : public std::exception
 {
@@ -32,3 +37,40 @@ public:
 private:
   std::string error_message;
 };
+
+class OutOfBoundsException : public std::exception
+{
+public:
+  OutOfBoundsException(char const *message = "Index was out of matrice bounds") : error_message(message)
+  {
+  }
+
+  /** Constructor which demands additional info */
+  OutOfBoundsException(const Matrix &thrower, size_t row, size_t col);
+
+  virtual char const *what() const noexcept
+  {
+    return error_message.c_str();
+  }
+
+private:
+  std::string error_message;
+};
+
+class WrongArgumentException : public std::exception
+{
+public:
+  WrongArgumentException(char const *message = "Wrong argument provided") : error_message(message)
+  {
+  }
+
+  virtual char const *what() const noexcept
+  {
+    return error_message.c_str();
+  }
+
+private:
+  std::string error_message;
+};
+
+#endif
