@@ -1,6 +1,8 @@
 #include "exceptions.hpp"
 #include "matrix.hpp"
 
+using Matrix = __Matrix__::Matrix;
+
 OutOfBoundsException::OutOfBoundsException(const Matrix &thrower, size_t row, size_t col)
 {
   std::ostringstream oss;

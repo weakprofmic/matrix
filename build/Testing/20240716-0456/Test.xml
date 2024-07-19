@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20240716-0456-Experimental"
+	Name="DESKTOP-O5SQ7SN"
+	Generator="ctest-3.27.2-msvc1"
+	CompilerName="C:/msys64/mingw64/bin/g++.exe"
+	CompilerVersion="14.1.0"
+	OSName="Windows"
+	Hostname="DESKTOP-O5SQ7SN"
+	OSRelease=" Personal"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="13"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="21527"
+	TotalPhysicalMemory="16151"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2304"
+	>
+	<Testing>
+		<StartDateTime>Jul 16 07:56 E. Europe Summer Time</StartDateTime>
+		<StartTestTime>1721105791</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 16 07:56 E. Europe Summer Time</EndDateTime>
+		<EndTestTime>1721105791</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

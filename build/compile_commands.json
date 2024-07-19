@@ -1,0 +1,98 @@
+[
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix_x.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix_x.dir\\src\\exceptions.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\exceptions.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/exceptions.cpp",
+  "output": "CMakeFiles/Matrix_x.dir/src/exceptions.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix_x.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix_x.dir\\src\\functions.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\functions.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/functions.cpp",
+  "output": "CMakeFiles/Matrix_x.dir/src/functions.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix_x.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix_x.dir\\src\\iterator.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\iterator.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/iterator.cpp",
+  "output": "CMakeFiles/Matrix_x.dir/src/iterator.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix_x.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix_x.dir\\src\\matrix.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\matrix.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/matrix.cpp",
+  "output": "CMakeFiles/Matrix_x.dir/src/matrix.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix_x.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix_x.dir\\src\\vector.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\vector.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/vector.cpp",
+  "output": "CMakeFiles/Matrix_x.dir/src/vector.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix_x.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix_x.dir\\main.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\main.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/main.cpp",
+  "output": "CMakeFiles/Matrix_x.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix.dir\\src\\exceptions.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\exceptions.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/exceptions.cpp",
+  "output": "CMakeFiles/Matrix.dir/src/exceptions.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix.dir\\src\\functions.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\functions.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/functions.cpp",
+  "output": "CMakeFiles/Matrix.dir/src/functions.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix.dir\\src\\iterator.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\iterator.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/iterator.cpp",
+  "output": "CMakeFiles/Matrix.dir/src/iterator.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix.dir\\src\\matrix.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\matrix.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/matrix.cpp",
+  "output": "CMakeFiles/Matrix.dir/src/matrix.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Matrix.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\Matrix.dir\\src\\vector.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\src\\vector.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/src/vector.cpp",
+  "output": "CMakeFiles/Matrix.dir/src/vector.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/tests",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/TestMatrix.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\TestMatrix.dir\\test.cpp.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\tests\\test.cpp",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/tests/test.cpp",
+  "output": "tests/CMakeFiles/TestMatrix.dir/test.cpp.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\Desktop\\Programming\\C,C++\\projects_n_vs\\matrix\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

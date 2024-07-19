@@ -1,0 +1,5 @@
+if(EXISTS "D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/tests/TestMatrix[1]_tests.cmake")
+  include("D:/Desktop/Programming/C,C++/projects_n_vs/matrix/build/tests/TestMatrix[1]_tests.cmake")
+else()
+  add_test(TestMatrix_NOT_BUILT TestMatrix_NOT_BUILT)
+endif()

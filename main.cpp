@@ -1,71 +1,66 @@
 #include "matrix.hpp"
 #include "functions.hpp"
 #include "matrix_iterator.hpp"
+#include "vector_iterator.hpp"
+#include "random_wrapper.hpp"
+#include "vector.hpp"
 #include <iostream>
 #include <iterator>
 #include <vector>
+#include <numeric>
+
+using Matrix = __Matrix__::Matrix;
+using Vector = __Matrix__::Vector;
 
 int main(int argc, char *argv[])
 {
-
-  double arr[15] = {};
-  std::vector<double> v(arr, arr + 15);
+  int inds[16];
+  double arr[16] = {};
+  std::vector<double> v(arr, arr + 16);
   std::copy(v.begin(), v.end(), std::ostream_iterator<double>(std::cout, ","));
   arr[1] = 11;
-  Matrix m, m2, m3;
-  std::cin >> m;
-  Matrix m1 = m;
-  m2 = m1;
-  m3 = std::move(m);
 
-  try
+  Random random;
+
+  std::iota(inds, inds + 16, 0);
+  for (auto i : inds)
   {
-    // Matrix m = Matrix(3, 5 , {1,2,3,4,5,6,7,8,9,10,11,12,13,45,55});
-    print_matrix(m);
-    std::cout << m << std::endl;
-
-    // m.set_cols(5);
+    arr[i] = random.random_integer(0, 10);
   }
-  catch (std::exception &e)
-  {
-    std::cerr << (e.what());
-  }
-  print_matrix(m1);
-  print_matrix(m2);
-  print_matrix(m3);
-  print_matrix(m);
-  Matrix m4 = std::move(m1);
-  print_matrix(m1);
-  print_matrix(m4);
-  m4.swapRows(0,1);
-  print_matrix(m4);
+  std::copy(arr, arr + 16, std::ostream_iterator<double>(std::cout, ","));
 
-  for(auto i : m4)
-    std::cout << i << '\n';
+  Matrix m(4, 4, arr);
+  Vector mv (16, arr);
 
-  // try
-  // {
-  //   double x = m4(0, 1);
-  //   x = 5;
-  //   // m4(0, 3) = 15;
-  //   print_matrix(m4);
-  //   std::cout << m4(0, 3);
-  // }
-  // catch (std::exception &e)
-  // {
-  //   std::cerr << (e.what());
-  // }
-  m4 = 1;
-  print_matrix(Matrix::identity(5));
-  print_matrix(Matrix::x_matrix(7, 1, 9.3));
-  print_matrix(Matrix::x_matrix(3));
-  Matrix z = Matrix::zero(4, 2);
-  Matrix zm = Matrix::zero(4, 2) - 2;
-  Matrix xp = Matrix::x_matrix(4, 2, 9) / 3;
+  print_vector(mv);
+  
+  std::cout << *mv.begin();
+  
 
-  std::cout << "Comparison result(0):" << (z > zm + xp) << '\n';
-  std::cout << "Comparison result(1):" << (z == zm + xp) << '\n';
-  // std::cout << "Comparison result:" << (z > zm + xp) << '\n';
+  // print_matrix(m);
+  // m.transpmose();
+  // print_matrix(m);
+  // print_matrix(m ^ 0);
+  // std::cout << double(m ^ 0) + 5;
+  // std::cout << Matrix::inversed(m);
+  // std::cout << m;
+  // std::cout << m * Matrix::transposed(m);
+  // Matrix m1(1, 1, {888});
+
+  // eigens_power_law(m);
+
+  // lu_decomposition(m);
+  qr_decomposition(m);
+
+  // print_matrix(Matrix::transposed(m).cofactor());
+  // print_matrix(m.adjoint());
+  // print_matrix(m.cofactor());
+  // print_matrix(m);
+  // m.inverse();
+  // print_matrix(m);
+  // std::cout << m.det();
+
+  // std::cout << m;
 
   return 0;
 }
