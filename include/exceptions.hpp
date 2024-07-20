@@ -7,8 +7,6 @@
 #include <sstream>
 #include <iostream>
 
-class Matrix;
-
 class NotImplementedException : public std::exception
 {
 public:
@@ -44,9 +42,6 @@ public:
   OutOfBoundsException(char const *message = "Index was out of matrice bounds") : error_message(message)
   {
   }
-
-  /** Constructor which demands additional info */
-  OutOfBoundsException(const Matrix &thrower, size_t row, size_t col);
 
   virtual char const *what() const noexcept
   {
