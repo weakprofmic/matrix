@@ -7,28 +7,21 @@ namespace M_Matrix
   class Matrix;
   
   template <typename T>
-  void print_matrix(const Matrix<T> &);
+  void print_matrix(const Matrix<double> &);
 
-  template <typename T>
-  Matrix<T> operator+(Matrix<T>, double);
+  Matrix<double> operator+(Matrix<double>, double);
 
-  template <typename T>
-  Matrix<T> operator-(Matrix<T>, double);
+  Matrix<double> operator-(Matrix<double>, double);
 
-  template <typename T>
-  Matrix<T> operator+(Matrix<T>, Matrix<T> const &);
+  Matrix<double> operator+(Matrix<double>, Matrix<double> const &);
 
-  template <typename T>
-  Matrix<T> operator-(Matrix<T>, Matrix<T> const &);
+  Matrix<double> operator-(Matrix<double>, Matrix<double> const &);
 
-  template <typename T>
-  Matrix<T> operator-(Matrix<T>);
+  Matrix<double> operator-(Matrix<double>);
 
-  template <typename T>
-  Matrix<T> operator*(Matrix<T>, double);
+  Matrix<double> operator*(Matrix<double>, double);
 
-  template <typename T>
-  Matrix<T> operator/(Matrix<T>, double);
+  Matrix<double> operator/(Matrix<double>, double);
 }
 
 #endif

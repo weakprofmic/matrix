@@ -159,7 +159,7 @@ namespace M_Matrix
     length = rows * cols;
     data = new T[length];
 
-    T value = 0;
+    T value {};
     std::cout << "Enter elements of matrice: ";
     is >> value;
     while (is.good() && index < length)
@@ -220,36 +220,36 @@ namespace M_Matrix
     return (*this);
   }
 
-  template <typename T>
-  Matrix<T> Matrix<T>::identity(size_t size)
+  template <>
+  Matrix<double> Matrix<double>::identity(size_t size)
   {
-    T *data = new T[size * size]();
+    double *data = new double[size * size]();
     for (auto i = 0; i < size * size; i += size + 1)
       data[i] = 1;
     return Matrix(size, size, data);
   }
 
-  template <typename T>
-  Matrix<T> Matrix<T>::x_matrix(size_t width, size_t height, T x)
+  template <>
+  Matrix<double> Matrix<double>::x_matrix(size_t width, size_t height, double x)
   {
     if (height == 0)
     {
       height = width;
     }
-    T *data = new T[height * width]();
+    double *data = new double[height * width]();
     std::fill(data, data + height * width, x);
 
     return Matrix(width, height, data);
   }
 
-  template <typename T>
-  Matrix<T> Matrix<T>::zero(size_t width, size_t height)
+  template <>
+  Matrix<double> Matrix<double>::zero(size_t width, size_t height)
   {
     if (height == 0)
     {
       height = width;
     }
-    return Matrix<T>::x_matrix(width, height);
+    return Matrix<double>::x_matrix(width, height);
   }
 
   /* Matrix<T> Matrix<T>::operator^(int x) const

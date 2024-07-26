@@ -36,6 +36,18 @@ namespace M_Matrix
     explicit Matrix(size_t, size_t, std::vector<T>);
     Matrix(Matrix const &other);
     Matrix(Matrix &&other);
+
+    // operator Matrix<double>();
+    // template <>
+    operator Matrix<double>() const
+    {
+      double *data = new double[rows() * cols()]();
+      Iterator it = begin();
+      std::for_each(data, data + rows() * cols(), [&it](double &elem)
+                    { elem = static_cast<double>(*(it++)); });
+      return Matrix<double>(rows(), cols(), data);
+    }
+
     ~Matrix();
 
     // assignment
@@ -161,9 +173,27 @@ namespace M_Matrix
     // Matrix operator^(int x) const;
 
     // Iterator basics
-    // class Iterator;
-    // Iterator begin();
-    // Iterator end();
+    class Iterator;
+    Iterator begin() const;
+    Iterator end() const;
+
+    class Col_Iterator;
+
+    Iterator iterator() {
+      return Iterator{data_};
+    }
+
+    Col_Iterator col_iterator() {
+      return Col_Iterator{data_, rows_, cols_};
+    }
+
+    // Iterator basics
+    class Linear;
+    using Row = Linear;
+    using Col = Linear;
+
+    Row getRow();
+    Col getCol();
 
   private:
     uint8_t rows_;
